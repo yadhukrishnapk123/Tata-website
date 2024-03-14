@@ -1,0 +1,149 @@
+.banner {
+    background-color: rgb(46, 41, 41);
+    color: rgb(0, 0, 0);
+   /* padding: 10px 20px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+    
+
+}
+
+/* Styling for logo */
+.logo {
+    width: 60px; /* Adjust width as needed */
+   margin-left: 80px;  
+}
+
+
+
+
+/* Styling for navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0px;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.navbar li {
+    margin-left: 100px; /* Adjust spacing between navbar items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: -5px;
+    margin-left: -90px;
+    
+}
+ a:hover{
+    color: red;
+}
+
+
+
+
+.service{
+    /* background-color: #3b3232;*/
+     padding: 100px 0;
+     text-align: left;
+     margin-left: -10px;
+     margin-right: -10px;
+     background-image: url('servicebg.jpeg');
+     background-size: cover;
+     background-position: center;
+     color: white;
+    padding-bottom: 80px;
+   
+     
+ }
+ 
+ 
+.service p {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 270px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 25px;
+
+}
+
+.service h1{
+    padding: 25px;
+   margin-bottom: -75px;
+}
+
+
+.container{
+
+margin-left: -10px;
+margin-right: -10px;
+margin-top: -19px;
+background-image: url('bg.jpg');
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 135px;
+
+
+}
+
+.container p{
+    color: white;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.container h3{
+    color: white;
+    
+}
+
+
+footer {
+    background-image:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f3ebeb;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+    margin-top: -155px;
+}
+
+
+.social-icons{
+    margin-right: -1300px;
+    margin-top: -50px;
+}
+
+ .social-icons ul li {
+    display: inline-block; /* Display icons horizontally */
+    margin-right: 150px;
+     /* Spacing between icons */
+  }
+  
+  .social-icons ul li:last-child {
+    margin-right: 2px; /* Remove margin from last icon */
+  }
+  
+  .social-icons ul li a img {
+    width: 10px; 
+    height: 10px;
+  }
