@@ -2,10 +2,12 @@
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: center;
+ 
 }
 
-   .banner {
-    background-color: rgb(46, 41, 41);
+
+.banner {
+    background-image: linear-gradient(pink,white);
     color: rgb(0, 0, 0);
    /* padding: 10px 20px;*/
     display: flex;
@@ -13,6 +15,7 @@
     align-items: center;
     padding: 10px;
     margin-left: -10px;
+    margin-top: -10px;
     width: 100%;
     
 
@@ -20,7 +23,7 @@
 
 /* Styling for logo */
 .logo {
-    width: 40px; /* Adjust width as needed */
+    width: 60px; /* Adjust width as needed */
    margin-left: 80px;
 
     
@@ -51,7 +54,7 @@
 
 .navbar a {
     text-decoration: none;
-    color: white;
+  color: black;
     font-weight: bold;
     padding: -5px;
     margin-left: -90px;
@@ -60,6 +63,7 @@
  a:hover{
     color: red;
 }
+
 
    
    
@@ -78,6 +82,9 @@
     background-position: center;
     color: white;
     margin-bottom: -25px;
+    
+   
+
   
     
 }
@@ -114,14 +121,14 @@ p{
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: center;
-    
+    width: auto;
 }
 
 /* Gallery item */
 .gallery-item {
     overflow: hidden;
     border-radius: 8px;
-   
+   width: auto;
 }
 
 .gallery-item img {
@@ -144,40 +151,49 @@ p{
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -23px;
+    margin-bottom: -20px;
+    width: auto;
 }
 
 .profile h1{
     color:white;
 }
 
-footer {
-    background-image:url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f3ebeb;
-    text-align: center;
-    padding: 20px;
+.banner2{
+    color: white;
+   /* padding: 10px 20px;*/
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin-left: -10px;
     width: 100%;
-    margin-top: -30px;
+    background-image: linear-gradient(lightgray,pink);
+
+    
+   
+
+}
+
+.navbar2{
+    padding-right: 0px;
+    
 }
 
 
 .social-icons{
-    margin-right: -1300px;
-    margin-top: -50px;
+    padding-bottom: 200x;
 }
 
- .social-icons ul li {
+
+.social-icons ul li {
     display: inline-block; /* Display icons horizontally */
-    margin-right: 150px;
+    margin-right: 10px;
      /* Spacing between icons */
   }
   
   .social-icons ul li:last-child {
-    margin-right: 2px; /* Remove margin from last icon */
+    margin-right: 0; /* Remove margin from last icon */
   }
   
   .social-icons ul li a img {
@@ -185,3 +201,20 @@ footer {
     height: 10px;
   }
 
+
+  
+/* CSS styles for the footer */
+footer{
+    background-image:linear-gradient(pink,lightgray);
+     text-align: center;
+     padding: 20px;
+     align-items: center;
+     padding: 10px;
+     margin-left: -10px;
+     width: 100%;
+     
+ }
+
+footer p{
+    color: white;
+}

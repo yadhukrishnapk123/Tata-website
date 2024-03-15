@@ -1,5 +1,5 @@
 .banner {
-    background-color: rgb(46, 41, 41);
+    background-image: linear-gradient(pink,white);
     color: rgb(0, 0, 0);
    /* padding: 10px 20px;*/
     display: flex;
@@ -43,7 +43,7 @@
 
 .navbar a {
     text-decoration: none;
-    color: white;
+   color: black;
     font-weight: bold;
     padding: -5px;
     margin-left: -90px;
@@ -107,43 +107,274 @@ background-image: url('bg.jpg');
     margin-top: -40px;
 }
 
-.container h3{
-    color: white;
+
+
+.online{
+    background-color: rgb(163, 143, 143);
+    width: 150px;
+    height: 250px;
+    border: 15px solid rgb(173, 100, 100);
+    padding: 50px;
+    margin: 20px;
+    margin-right: -25px;
+  }
+.container img{
+margin-right: 12px;
+border-radius: 80%;
     
 }
+.container h3{
+    color: rgb(70, 70, 157);
+    border: 40px solid;
+   width: auto;
+   margin-left: -40px;
+   margin-right: -40px;
+   color: white;
+}
+ 
+
+.p{
+    color: rgb(242, 242, 242);
+    float: inline-end;
+    margin-top: -350px;
+}
+
+/*second*/
 
 
-footer {
-    background-image:url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f3ebeb;
-    text-align: center;
-    padding: 20px;
+.container2{
+
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -19px;
+    background-image: url('bg.jpg');
+         background-size: cover;
+         background-position: center;
+         margin-bottom: 135px;
+         margin-top: -130px;
+    
+    
+    }
+    
+    .container2 p{
+        color: white;
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+    
+    
+    
+    .Doorstep-service{
+        background-color: rgb(163, 143, 143);
+        width: 150px;
+        height: 250px;
+        border: 15px solid rgb(173, 100, 100);
+        padding: 50px;
+        margin: 20px;
+        margin-right: -25px;
+      }
+    .container2 img{
+    margin-right: 12px;
+    border-radius: 80%;
+        
+    }
+    .container2 h3{
+        color: rgb(70, 70, 157);
+        border: 40px solid;
+       width: auto;
+       margin-left: -40px;
+       margin-right: -40px;
+       color: white;
+    }
+     
+    
+    .p{
+        color: rgb(242, 242, 242);
+        float: inline-end;
+        margin-top: -350px;
+    }
+    /*third section*/
+
+
+
+    .container3{
+
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -19px;
+        background-image: url('bg.jpg');
+             background-size: cover;
+             background-position: center;
+             margin-bottom: 135px;
+             margin-top: -130px;
+        
+        
+        }
+        
+        .container3 p{
+            color: white;
+            margin-left: 150px;
+            margin-top: -40px;
+        }
+        
+        
+        
+        .road-side-assistance{
+            background-color: rgb(163, 143, 143);
+            width: 150px;
+            height: 250px;
+            border: 15px solid rgb(173, 100, 100);
+            padding: 50px;
+            margin: 20px;
+            margin-right: -25px;
+          }
+        .container3 img{
+        margin-right: 12px;
+        border-radius: 80%;
+            
+        }
+        .container3 h3{
+            color: rgb(70, 70, 157);
+            border: 40px solid;
+           width: auto;
+           margin-left: -40px;
+           margin-right: -40px;
+           color: white;
+        }
+         
+        
+        .p{
+            color: rgb(242, 242, 242);
+            float: inline-end;
+            margin-top: -350px;
+        }
+
+/*fourth section*/
+    
+    
+
+.container4{
+
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -19px;
+    background-image: url('bg.jpg');
+         background-size: cover;
+         background-position: center;
+         margin-bottom: 135px;
+         margin-top: -130px;
+         
+    
+    
+    }
+    
+    .container4 p{
+        color: white;
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+    
+    
+    
+    .QuickRepair{
+        background-color: rgb(163, 143, 143);
+        width: 150px;
+        height: 250px;
+        border: 15px solid rgb(173, 100, 100);
+        padding: 50px;
+        margin: 20px;
+        margin-right: -25px;
+      }
+    .container4 img{
+    margin-right: 12px;
+    border-radius: 80%;
+        
+    }
+    .container4 h3{
+        color: rgb(70, 70, 157);
+        border: 40px solid;
+       width: auto;
+       margin-left: -40px;
+       margin-right: -40px;
+       color: white;
+    }
+     
+    
+    .p{
+        color: rgb(242, 242, 242);
+        float: inline-end;
+        margin-top: -350px;
+
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+/*banner section*/
+.banner2{
+    color: white;
+   /* padding: 10px 20px;*/
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin-left: -10px;
     width: 100%;
-    margin-top: -155px;
+    background-image: linear-gradient(lightgray,pink);
+
+    
+   
+
+}
+
+.navbar2{
+    padding-right: 0px;
+    
 }
 
 
 .social-icons{
-    margin-right: -1300px;
-    margin-top: -50px;
+    padding-bottom: 200x;
 }
 
- .social-icons ul li {
+
+.social-icons ul li {
     display: inline-block; /* Display icons horizontally */
-    margin-right: 150px;
+    margin-right: 10px;
      /* Spacing between icons */
   }
   
   .social-icons ul li:last-child {
-    margin-right: 2px; /* Remove margin from last icon */
+    margin-right: 0; /* Remove margin from last icon */
   }
   
   .social-icons ul li a img {
     width: 10px; 
     height: 10px;
   }
+
+
+  
+/* CSS styles for the footer */
+footer {
+    background-image:linear-gradient(pink,lightgray);
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+    
+}
+
+
+footer p{
+    color: white;
+}
