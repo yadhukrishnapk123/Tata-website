@@ -117,11 +117,8 @@ p{
     grid-gap: 20px;
     margin: 20px;
     margin-left: -30px;
-    margin-right: -10px;
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-position: center;
-    width: auto;
+    margin-right: 20px;
+    
 }
 
 /* Gallery item */
@@ -135,6 +132,8 @@ p{
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
+    padding: 50px;
+   
 }
 
 /* Hover effect */
@@ -145,9 +144,6 @@ p{
 
 .profile{
 
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-position: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -23px;
@@ -156,9 +152,14 @@ p{
 }
 
 .profile h1{
-    color:white;
+    color:rgb(176, 29, 29);
+    margin-left: 10px;
 }
 
+.profile p{
+    color: blueviolet;
+    padding: 30px;
+}
 .banner2{
     color: white;
    /* padding: 10px 20px;*/

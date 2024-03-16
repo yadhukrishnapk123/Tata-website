@@ -58,15 +58,15 @@
 
 .service{
     /* background-color: #3b3232;*/
-     padding: 100px 0;
+     padding: 50px 0;
      text-align: left;
      margin-left: -10px;
      margin-right: -10px;
      background-image: url('servicebg.jpeg');
      background-size: cover;
      background-position: center;
-     color: white;
-    padding-bottom: 80px;
+     color: rgb(228, 183, 183);
+    
    
      
  }
@@ -93,16 +93,13 @@
 margin-left: -10px;
 margin-right: -10px;
 margin-top: -19px;
-background-image: url('bg.jpg');
-     background-size: cover;
-     background-position: center;
-     margin-bottom: 135px;
-
+padding: 20px;
+   
 
 }
 
 .container p{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 150px;
     margin-top: -40px;
 }
@@ -114,201 +111,33 @@ background-image: url('bg.jpg');
     width: 150px;
     height: 250px;
     border: 15px solid rgb(173, 100, 100);
-    padding: 50px;
+    padding: 10px;
     margin: 20px;
     margin-right: -25px;
   }
 .container img{
 margin-right: 12px;
 border-radius: 80%;
+padding: -10px;
     
 }
 .container h3{
     color: rgb(70, 70, 157);
-    border: 40px solid;
-   width: auto;
-   margin-left: -40px;
-   margin-right: -40px;
-   color: white;
+    border: 10px solid;
+   
+   margin-left: 20px;
+   margin-right: 20px;
+   color: rgb(241, 241, 241);
 }
  
 
 .p{
-    color: rgb(242, 242, 242);
+    color: rgb(70, 156, 216);
     float: inline-end;
-    margin-top: -350px;
+    margin-top: -310px;
+    
 }
 
-/*second*/
-
-
-.container2{
-
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -19px;
-    background-image: url('bg.jpg');
-         background-size: cover;
-         background-position: center;
-         margin-bottom: 135px;
-         margin-top: -130px;
-    
-    
-    }
-    
-    .container2 p{
-        color: white;
-        margin-left: 150px;
-        margin-top: -40px;
-    }
-    
-    
-    
-    .Doorstep-service{
-        background-color: rgb(163, 143, 143);
-        width: 150px;
-        height: 250px;
-        border: 15px solid rgb(173, 100, 100);
-        padding: 50px;
-        margin: 20px;
-        margin-right: -25px;
-      }
-    .container2 img{
-    margin-right: 12px;
-    border-radius: 80%;
-        
-    }
-    .container2 h3{
-        color: rgb(70, 70, 157);
-        border: 40px solid;
-       width: auto;
-       margin-left: -40px;
-       margin-right: -40px;
-       color: white;
-    }
-     
-    
-    .p{
-        color: rgb(242, 242, 242);
-        float: inline-end;
-        margin-top: -350px;
-    }
-    /*third section*/
-
-
-
-    .container3{
-
-        margin-left: -10px;
-        margin-right: -10px;
-        margin-top: -19px;
-        background-image: url('bg.jpg');
-             background-size: cover;
-             background-position: center;
-             margin-bottom: 135px;
-             margin-top: -130px;
-        
-        
-        }
-        
-        .container3 p{
-            color: white;
-            margin-left: 150px;
-            margin-top: -40px;
-        }
-        
-        
-        
-        .road-side-assistance{
-            background-color: rgb(163, 143, 143);
-            width: 150px;
-            height: 250px;
-            border: 15px solid rgb(173, 100, 100);
-            padding: 50px;
-            margin: 20px;
-            margin-right: -25px;
-          }
-        .container3 img{
-        margin-right: 12px;
-        border-radius: 80%;
-            
-        }
-        .container3 h3{
-            color: rgb(70, 70, 157);
-            border: 40px solid;
-           width: auto;
-           margin-left: -40px;
-           margin-right: -40px;
-           color: white;
-        }
-         
-        
-        .p{
-            color: rgb(242, 242, 242);
-            float: inline-end;
-            margin-top: -350px;
-        }
-
-/*fourth section*/
-    
-    
-
-.container4{
-
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -19px;
-    background-image: url('bg.jpg');
-         background-size: cover;
-         background-position: center;
-         margin-bottom: 135px;
-         margin-top: -130px;
-         
-    
-    
-    }
-    
-    .container4 p{
-        color: white;
-        margin-left: 150px;
-        margin-top: -40px;
-    }
-    
-    
-    
-    .QuickRepair{
-        background-color: rgb(163, 143, 143);
-        width: 150px;
-        height: 250px;
-        border: 15px solid rgb(173, 100, 100);
-        padding: 50px;
-        margin: 20px;
-        margin-right: -25px;
-      }
-    .container4 img{
-    margin-right: 12px;
-    border-radius: 80%;
-        
-    }
-    .container4 h3{
-        color: rgb(70, 70, 157);
-        border: 40px solid;
-       width: auto;
-       margin-left: -40px;
-       margin-right: -40px;
-       color: white;
-    }
-     
-    
-    .p{
-        color: rgb(242, 242, 242);
-        float: inline-end;
-        margin-top: -350px;
-
-    }
-    
-    
-    
 
 
 

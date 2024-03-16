@@ -94,7 +94,7 @@ padding-top: 200PX;
     font-size: 25px;
     line-height: 1.6;
     margin-bottom: 270px;
-    color: white;
+    color: rgb(228, 228, 228);
     margin-left: -120px;
     
 
@@ -157,7 +157,7 @@ background-size: cover;
 
     .about p{
         margin-right: 130px;
-        color:white;
+        color:rgb(10, 9, 9);
         padding-left:50px;
        
          
