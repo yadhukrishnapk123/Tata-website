@@ -146,64 +146,163 @@ padding: -10px;
 
 
 
-/*banner section*/
-.banner2{
-    color: white;
-   /* padding: 10px 20px;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.footer{
+    background-color: pink;
     margin-left: -10px;
-    width: 100%;
-    background-image: linear-gradient(lightgray,pink);
-
-    
-   
-
-}
-
-.navbar2{
-    padding-right: 0px;
-    
-}
-
-
-.social-icons{
-    padding-bottom: 200x;
-}
-
-
-.social-icons ul li {
-    display: inline-block; /* Display icons horizontally */
-    margin-right: 10px;
-     /* Spacing between icons */
+    margin-right: -10px;
+  
+  }
+      
+  .footerlogo{
+      margin-left: 8px;
+      margin-top: 40px;
   }
   
-  .social-icons ul li:last-child {
-    margin-right: 0; /* Remove margin from last icon */
+  
+  .ul2{
+      margin-left: 700px;
+      margin-top: -60px;
   }
   
-  .social-icons ul li a img {
-    width: 10px; 
-    height: 10px;
+  
+  .social-media{
+      float: right;
+      margin-top: -70px;
+  }
+  
+  
+  
+  .para{
+      margin-left: 600px;
+      margin-bottom: -20px;
   }
 
 
-  
-/* CSS styles for the footer */
-footer {
-    background-image:linear-gradient(pink,lightgray);
-    text-align: center;
-    padding: 20px;
-    align-items: center;
-    padding: 10px;
-    margin-left: -10px;
-    width: 100%;
-    
-}
 
 
-footer p{
-    color: white;
-}
+  @media only screen and (min-width:375px) and (max-width:500px){
+    .banner {
+        background-image: linear-gradient(pink, white);
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-left: -10px;
+        width: 771px;
+        margin-top: -8px;
+    }
+
+
+    .service {
+        /* background-color: #3b3232; */
+        padding: 50px 0;
+        /* text-align: left; */
+        margin-left: -10px;
+        /* margin-right: -264px; */
+        background-image: url(servicebg.jpeg);
+        background-size: cover;
+        background-position: center;
+        color: rgb(228, 183, 183);
+        width: 791px;
+    }
+
+
+    .container {
+        margin-left: -43px;
+        /* margin-right: -142px; */
+        margin-top: -253px;
+        /* padding: 20px; */
+        padding: 282px;
+    }
+    .footer {
+        background-color: pink;
+        margin-left: -10px;
+        margin-right: -10px;
+        width: 791px;
+    }
+
+    .footerlogo {
+        margin-left: 7px;
+        margin-top: 40px;
+        width: 76px;
+    }
+
+
+    .ul2 {
+        margin-left: 284px;
+        margin-top: -73px;
+    }
+    .para {
+        margin-left: 221px;
+        margin-bottom: -20px;
+    }
+
+  }
+
+  @media only screen and (min-width:500px) and (max-width:1030px){
+
+
+    .banner {
+        background-image: linear-gradient(pink, white);
+        color: rgb(0, 0, 0);
+        /* padding: 10px 20px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-left: -10px;
+        width: 773px;
+        margin-top: -8px;
+    }
+
+    .service {
+        /* background-color: #3b3232; */
+        padding: 50px 0;
+        text-align: left;
+        margin-left: -10px;
+        margin-right: -28px;
+        background-image: url(servicebg.jpeg);
+        background-size: cover;
+        background-position: center;
+        color: rgb(228, 183, 183);
+        /* width: 792px; */
+        height: 877px;
+        padding: 73px;
+    }
+
+
+
+
+    .container {
+        margin-left: -253px;
+        margin-right: 4px;
+        margin-top: -282px;
+        padding: 301px;
+        /* padding-top: 292px; */
+    }
+    .footer {
+        background-color: pink;
+        margin-left: -10px;
+        margin-right: -32px;
+    }
+
+    .footerlogo {
+        margin-left: 8px;
+        margin-top: 40px;
+        width: 70px;
+    }
+
+
+    .ul2 {
+        margin-left: 298px;
+        margin-top: -78px;
+    }
+
+    .para {
+        margin-left: 223px;
+        margin-bottom: -20px;
+    }
+  }
+
+

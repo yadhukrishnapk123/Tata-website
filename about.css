@@ -160,62 +160,148 @@ p{
     color: blueviolet;
     padding: 30px;
 }
-.banner2{
-    color: white;
-   /* padding: 10px 20px;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-left: -10px;
-    width: 100%;
-    background-image: linear-gradient(lightgray,pink);
 
-    
+.footer{
+    background-color: pink;
+    margin-left: -10px;
+    margin-right: -10px;
+  
+  }
+      
+  .footerlogo{
+      margin-left: 8px;
+      margin-top: 40px;
+  }
+  
+  
+  .ul2{
+      margin-left: 700px;
+      margin-top: -60px;
+  }
+  
+  
+  .social-media{
+      float: right;
+      margin-top: -70px;
+  }
+  
+  
+  
+  .para{
+      margin-left: 600px;
+      margin-bottom: -20px;
+  }
+  
+  @media only screen and (min-width:375px) and (max-width:500px){
+
+    .banner {
+        background-image: linear-gradient(pink, white);
+        color: rgb(0, 0, 0);
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-left: -8px;
+        margin-top: -10px;
+        width: 769px;
+    }
+    .about {
+        /* background-color: #3b3232; */
+        padding: 100px 0;
+        text-align: center;
+        margin-left: -10px;
+        margin-right: -10px;
+        background-image: url(aboutbg.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        /* margin-bottom: -25px; */
+        width: 786px;
+        height: 1137px;
+    }
+
+
+
+    about p {
+        font-size: 32px;
+        line-height: 1.6;
+        /* margin-bottom: 270px; */
+        color: white;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 216px;
+    }
+
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+        margin: -72px;
+        margin-left: 120px;
+        margin-right: -275px;
+        margin-top: 27px;
+        /* width: 518px; */
+    }
+
+
+
+
+    .profile p {
+        color: blueviolet;
+        padding: -18px;
+        font-size: 29px;
+        margin-left: 111px;
+        margin-right: -276px;
+    }
+
+    .profile h1 {
+        color: rgb(176, 29, 29);
+        margin-left: 10px;
+    }
+
+
+    .footer {
+        background-color: pink;
+        margin-left: -10px;
+        margin-right: -423px;
+    }
    
 
-}
+    .ul2 {
+        margin-left: 303px;
+        margin-top: -76px;
+    }
 
-.navbar2{
-    padding-right: 0px;
-    
-}
+    .footerlogo {
+        margin-left: 8px;
+        margin-top: 40px;
+        width: 74px;
+    }
 
 
-.social-icons{
-    padding-bottom: 200x;
-}
-
-
-.social-icons ul li {
-    display: inline-block; /* Display icons horizontally */
-    margin-right: 10px;
-     /* Spacing between icons */
-  }
-  
-  .social-icons ul li:last-child {
-    margin-right: 0; /* Remove margin from last icon */
-  }
-  
-  .social-icons ul li a img {
-    width: 10px; 
-    height: 10px;
+    .para {
+        margin-left: 217px;
+        margin-bottom: -20px;
+    }
   }
 
 
-  
-/* CSS styles for the footer */
-footer{
-    background-image:linear-gradient(pink,lightgray);
-     text-align: center;
-     padding: 20px;
-     align-items: center;
-     padding: 10px;
-     margin-left: -10px;
-     width: 100%;
-     
- }
+  @media only screen and (min-width:500px) and (max-width:1030px){
 
-footer p{
-    color: white;
-}
+
+    footerlogo {
+        margin-left: 13px;
+        margin-top: 40px;
+        width: 68px;
+    }
+    .ul2 {
+        margin-left: 299px;
+        margin-top: -74px;
+    }
+    .para {
+        margin-left: 211px;
+        margin-bottom: -20px;
+    }
