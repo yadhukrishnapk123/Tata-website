@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
   <link rel="stylesheet" href="Assets/css/condact.css">
+  <link rel="icon" href="Assets/image/tata.png" >
 </head>
 
 
@@ -15,13 +16,14 @@
         <img src="Assets/image/tata.png" alt="Logo" class="logo">
     
     <div class="navbar">
-
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="condact.html">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="condact.html">Contact</a></li>
+      
+    </ul>
     </div>
 </div>
 
@@ -58,12 +60,13 @@
       <p><i class="fas fa-phone"></i>+1234567890</p>
       <p><i class="fas fa-envelope"></i>info@example.com</p>
     </div>
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="Your Name">
-      <input type="email" name="email" placeholder="Your Email">
-      <textarea name="message" placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+   
+<form id="contactForm">
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <input type="email" id="email" name="email" placeholder="Your Email" required>
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
     
   </div>
   <div class="map">
@@ -98,5 +101,6 @@
 
   <p class="para">&copy; 2024 Your Website Name. All rights reserved.</p>
 </footer>
+<script src="Assets/js/condact.js"></script>
 </body>
 </html>

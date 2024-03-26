@@ -110,43 +110,29 @@ a:hover{
     margin-right: 10px;
   }
   
-  .contact-form input,
-  .contact-form textarea {
+
+
+
+  {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
- 
-  }
-  
-  .contact-form textarea {
-  
-    height: 150px;
-  }
-
-  .condact-from{
-    height: 528px;
-    width:750px;
-    
-    
-
-  }
-  
-  .contact-form button {
-    background-color: #007bff;
-    color: #fff;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
     border: none;
-    
-   
     cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-    background-color: #0056b3;
-  }
-  
-
+}
   .map{
     float: right;
     margin-top: -535px;
